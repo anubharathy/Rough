@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@drawable/login_page"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="text"
+        android:id="@+id/e1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="30dp"
+        android:inputType="text"
+        android:layout_marginRight="30dp"
+        android:id="@+id/e2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="Not a member? Sign in!!"
+        android:textSize="20sp"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="monospace"
+        android:id="@+id/t1"
+        android:onClick="txt_msg1"/>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="450dp"
+        android:background="#DCDCDC"
+        android:fontFamily="sans-serif-black"
+        android:text="Login" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password?"
+        android:textSize="18sp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/t2"
+        android:onClick="txt_msg"/>
+    </RelativeLayout>

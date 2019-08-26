@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="horizontal"
+    tools:context=".Main2Activity"
+    >
+
+
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="#DCDCDC"
+        android:background="@drawable/buttoncircle"
+        android:fontFamily="sans-serif-thin"
+        android:text="LOGIN"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#000000"
+
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#FFDAB9"
+        android:background="@drawable/buttoncircle"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="ABOUT"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#DCDCDC"
+        android:background="@drawable/buttoncircle"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="premium"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#FFDAB9"
+        android:background="@drawable/buttoncircle"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="CONTACT US"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+</RelativeLayout>
+
